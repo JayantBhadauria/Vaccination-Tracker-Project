@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    border: 2px solid rgb(209, 93, 199);
+    margin: 0px auto;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+}
+
+.left img{
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.input{
+    border: none;
+    border-bottom: 2px solid black;
+    height: 30px;
+    width: 80%;
+    
+}
+
+.input:focus{
+    outline: none;
+}
+
+.btn{
+    width: 50px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.center-div{
+    padding-top: 10%;
+}
+
+.btn.btn-success{
+    padding: 5px 22px;
+}
+
+form{
+    padding: 0 20px;
+}
+
+#login.title >span{
+    font-size: 0.8px;
+}
+.center{
+    display: none;
+    flex-direction: column;
+}
+
+.table {
+    border: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+}
+
+tr{
+    height: 25px;
+    padding: 4px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+td{
+    text-align: center;
+} 
